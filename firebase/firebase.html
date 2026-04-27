@@ -5,16 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .texto{
+            color: aqua;
+        }
+        .campo{
+            border:1px solid greenyellow;
+
+        }
+        .botao{
+            background-color:red;
+            color: aliceblue;
+        }
+        .fieldset{
+            border:1px solid black;
+
+
+        }
+    </style>
 </head>
 
 <body>
     <form>
-        CPF: <input type="text" placeholder= "digite seu cpf" maxlength="11" minlegth="11" required><br><br>
-        email: <input type="text" placeholder="digite seu e,ail" maxlength="30" minlegth="11" required><br><br>
-        nome: <input type="text" placeholder="digite seu nome" maxlength="50" minlegth="11" required><br><br>
-        senha: <input type="text" placeholder="digite seu senha" maxlength="10" minlegth="5" required><br><br>
-        telefone: <input type="text" placeholder="digite seu telefone" maxlength="11" minlegth="11" required><br><br>
+        <fieldset>
+            <legend>cadastro do firebase</legend>
+        <p class="texto">CPF: <input type="text" class="campo" placeholder= "digite seu cpf" maxlength="11" minlegth="11" required><br><br></p>
+        <p class="texto">email: <input type="text" class="campo" placeholder="digite seu e,ail" maxlength="30" minlegth="11" required><br><br></p>
+        <p class="texto">nome: <input type="text" class="campo" placeholder="digite seu nome" maxlength="50" minlegth="3" required><br><br></p>
+        <p class="texto">senha: <input type="text" class="campo" placeholder="digite seu senha" maxlength="10" minlegth="5" required><br><br></p>
+        <p class="texto">telefone: <input type="text" class="campo" placeholder="digite seu telefone" maxlength="11" minlegth="11" required><br><br></p>
         <input type="submit" value="cadastrar">
+        </fieldset>
         
     </form>
 
