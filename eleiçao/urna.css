@@ -1,1 +1,21 @@
+body {
+    beckground-color: rgba(0, 0, 255, 0.551);
+}
 
+tela. {
+    width: 600px;
+    height: 300px;
+    beckground-color: rgb(237, 185, 246);
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.lado {
+    width: 40px;
+    height: 300px;
+    beckground-color: rgb(126, 21, 145);
+    margin-top: 5px;
+    margin-left: 5%;
+    display: inline-block;
+}
