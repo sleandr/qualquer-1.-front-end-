@@ -1,21 +1,25 @@
-body {
-    beckground-color: rgba(0, 0, 255, 0.551);
-}
+<!DOCTYPE html>
+<html lang="en">
 
-tela. {
-    width: 600px;
-    height: 300px;
-    beckground-color: rgb(237, 185, 246);
-    border: 1px solid black;
-    margin-top: 50px;
-    margin-left: 200px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="leleellelel.body{.css">
+</head>
 
-.lado {
-    width: 40px;
-    height: 300px;
-    beckground-color: rgb(126, 21, 145);
-    margin-top: 5px;
-    margin-left: 5%;
-    display: inline-block;
-}
+<body>
+    <div class="tela">
+        <div class="lado">
+            <img src="https://www.tre-sc.jus.br/++theme++justica_eleitoral/imagens/legislacao/brasao.jpg" width="100%"
+                height="100%">
+        </div>
+        <div class="lado">
+            <div class="alto">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
