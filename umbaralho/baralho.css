@@ -1,24 +1,38 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    width: 100px;
+    height: 600px;
+    background-color: black;
 }
 
-.linha1, .linha2, .linha3 {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-} 
+.linha1,
+.linha2,
+.linha3 {
+    width: 100%;
+    height: 33%;
+    background-color: blueviolet;
+    margin-top: 0.3%;
+    flex-direction: row;
+}
 
-.carta { 
-    width: 100px; 
-    height: 140px; 
-    background: white; 
-    border: 2px solid black; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
-    font-size: 12px; 
+.linha11,
+.linha12,
+.linha13,
+.linha14,
+.linha15,
+.linha21,
+.linha22,
+.linha23,
+.linha34,
+.linha25,
+.linha31,
+.linha32,
+.linha33,
+.linha34,
+.linha35 {
+    width: 18px;
+    height: 100%;
+    background-color: rgb(78, 238, 118);
+    margin-left: 1.5%;
+    float: left;
+    display: inline;
 }
