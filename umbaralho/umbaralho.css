@@ -29,10 +29,23 @@ body {
 .linha33,
 .linha34,
 .linha35 {
-    width: 18px;
+    width: 18%;
     height: 100%;
-    background-color: rgb(78, 238, 118);
+    background-color: rgb(222, 70, 0);
     margin-left: 1.5%;
     float: left;
     display: inline;
+    flex-direction: row;
+}
+.cima,.baixo,.foto{
+    display: inline;
+    float: left;
+}
+.cima,.baixo{
+    width: 10%;
+    height: 10%;
+}
+.foto{
+    width: 80%;
+    height: 80%;
 }
