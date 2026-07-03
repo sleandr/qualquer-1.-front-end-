@@ -1,5 +1,5 @@
 body {
-    width: 100px;
+    width: 1000px;
     height: 600px;
     background-color: black;
 }
@@ -37,18 +37,32 @@ body {
     display: inline;
     flex-direction: row;
 }
-.cima,.baixo,.foto{
-    display: inline;
-    float: left;
-}
-.cima,.baixo{
+
+.cima,
+.baixo {
     width: 10%;
     height: 10%;
 }
-.foto{
+
+.foto {
     width: 80%;
     height: 80%;
+    margin-top: 10%;
+
+    .baixo {
+        margin-top: 90%;
+        font-family: arial;
+        font-size: 100%;
+        font-weight: bold;
+        color: burlywood;
+
+    }
 }
-.cima{
+
+.cima {
     margin-top: -1%;
+    font-family: arial;
+    font-size: 100%;
+    font-weight: bold;
+    color: burlywood;
 }
