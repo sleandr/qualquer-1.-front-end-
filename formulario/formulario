@@ -4,6 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .site{
+            width:800px;
+            height:30px;
+            background-color: antiquewhite;
+        }
+        .linha1{
+            flex-direction: row;
+        }
+        .linha2{
+            width:800px;
+            height:30px;
+            background-color: antiquewhite;
+        }
+        .linha3{
+            width:800px;
+            height:30px;
+            background-color: antiquewhite;
+        }
+        .linha4{
+            width:800px;
+            height:35px;
+            background-color: antiquewhite;
+        }
+        .linha5{
+            width:800px;
+            height:30px;
+            background-color: antiquewhite;
+        }
+        .linha6{
+            width:7000px;
+            height:7000px;
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 <body>
    <div class= "site">
@@ -40,7 +75,7 @@
             </select>
         </div>
         <div class= "linha6">
-            
+            <textarea></textarea>
         </div>
         <div class= "linha7">
             
