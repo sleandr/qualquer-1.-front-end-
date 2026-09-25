@@ -46,6 +46,8 @@
             <input> type
             <select>
                 <option>
+            <fieldset>
+                <legend>dados pessoais</legend>
         <div class= "linha1">
             <input type= "feminino">
             <input type= "masculino">
@@ -60,7 +62,10 @@
             <input type= "email">
             <input type= "number">
             <input type= "number">
+        </fieldset>
         </div>
+        </fieldset>
+        <legend>numero</legend>
         <div class= "linha4">
             <input type= "number">
             <input type= "text">
@@ -77,6 +82,7 @@
         <div class= "linha6">
             <textarea></textarea>
         </div>
+    </fieldset>
         <div class= "linha7">
             
         </div>
